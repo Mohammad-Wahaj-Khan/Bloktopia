@@ -1,0 +1,825 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+body{
+    background-color: black;
+}
+.hemlo{
+    width: 50px;
+    height: 25px;
+    color: white;
+}
+.writtenColor{
+    cursor: pointer;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.writtenColor:hover{
+    color: #ff47ff;
+
+}
+.Careers{
+    color: #ff47ff;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Careers:hover{
+    color: #ff47ff;
+
+}
+ /*.Landing-Body {
+    background-image: url(./images/Landsale-poster.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    overflow-x: hidden;
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    height: 1000px;
+    z-index: 999;
+    
+}*/
+.Landing-Body .img{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    z-index: -1;
+    position: relative;
+}
+.button {
+    margin-top: -430px;
+    /* z-index: 1; */
+    background-color: black; /* Green */
+    border: 10px solid cyan;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+    /* transition-duration: 0.4s; */
+    color: #eb57f7;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+.button:hover{
+    border: #eb57f7;
+    cursor: pointer;
+  }
+.logo{
+    margin-left: -2%;
+}
+.diverNav {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: black; 
+    color: #fff;
+    padding: 10px;
+}
+.navbar{
+    background-color: black;
+}
+.wholeVideo{
+    z-index: 999;
+}
+.video{
+    /* background-color: white; 
+     border: 5px solid red; */
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.video::-webkit-media-controls-panel {
+     display: none ! important; opacity: 1 ! important;
+}
+/*.man{
+    width: 100%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+ .manVideo{
+    width: 35%;
+    /* height: 1000px; 
+}
+.manWritten{
+    color: white;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 13%;
+    font-size: 50px;
+    
+}
+.meta{
+    margin-left: 20%;
+    overflow: hidden;
+}
+.pp{
+    margin-left: 68%;
+    overflow: hidden;
+}
+body { overflow: hidden;}
+.build{
+    margin-top: -20%;
+}
+.build i{
+    color: #ff47ff;
+    overflow: hidden;
+    /* margin-top: -20%; 
+    margin-left: 66%;
+    font-size: 50px;
+}
+.by{
+    margin-left: 90.2%;
+    color: #ff47ff;
+    font-size: 50px;
+    margin-top: -3%;
+}
+.imgPolygon{
+    margin-left: 80%;
+    width: 200px;
+    margin-top: -10%;
+    height: 200px;
+} */
+
+.man{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.manVideo{
+    width: 30%;
+    height: 50%;
+}
+.manWritten{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    z-index: 999;
+}
+
+.manWritten .manPolygon{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+
+}.built{
+    color: #ff47ff;
+    font-size: 40px;
+    margin-top: -5%;
+}.by{
+    color: #ff47ff;
+    font-size: 40px;
+    margin-top: -5%;
+    margin-left: 41%;
+}.A{
+    margin-left: 45%;
+}
+.meta{
+    margin-left: 14%;
+}
+.imgPolygon{
+    width: 200px;
+    height: 200px;
+    margin-top: -20%;
+    margin-left: 18%;
+}
+.bloktopiaPara{
+    color: white;
+    margin-left: -20%;
+    z-index: 999;
+}
+.immersive{
+    color: white;
+    font-weight: normal;
+    margin-left: 20%;
+    z-index: 999;
+}
+.crypto{
+    color: white;
+    font-weight: normal;
+    margin-left: 2.5%;
+    z-index: 999;
+
+}
+
+.laptopWritten{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.laptopWritten .intro{
+    width: 50%;
+    height: 50%;
+}
+.intro .h1into{
+    color: white;
+    overflow: hidden;
+    margin-left: 20%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.intro .Italic{
+    color: #ff47ff;
+    margin-left: 20%;
+    font-size: 50px;
+
+}
+.Italic .italicP{
+    color: #ff47ff;
+    margin-left: 20%;
+    font-size: 50px;
+    margin-top: -4%;
+}
+.intro .box1{
+    margin-left: 20%;
+    color: white;
+}
+.laptopWritten .laptopPic{
+    width: 50%;
+    height: 50%;
+}
+
+.laptopPic .laptopImg{
+    height: 100%;
+    width: 100%;
+    margin-top: -14%;
+}
+.sliderVideo{
+    margin-bottom: -2%;
+    margin-top: 2%;
+}
+.blacktopio15{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+.blacktopio15 .bgImg{
+     width: 100%;
+     height: 100%;
+     background-position: cover;
+     overflow: hidden;
+}
+.blacktopio15 .upperWritten{
+    overflow: hidden;
+    background-color: black;
+    width: 60%;
+    padding: 20px 0px;
+    opacity: 0.6;
+    margin-top: -47%;
+    margin-left: 20%;
+}
+.upperWritten .upperh1{
+    text-align: center;
+    /* width: 50%; */
+    color: white;
+    overflow: hidden;
+    font-size: 50px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    z-index: 999;
+    opacity: 1;
+    
+}
+.upperWritten .upperI{
+    text-align: center;
+    /* width: 50%; */
+    font-size: 40px;
+    color: #ff47ff;
+   font-style: italic;
+}
+.upperWritten .upperP{
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+
+}
+.MobileSection{
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 10%;
+}
+.MobileSection .mobilePic{
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+}
+.MobileSection .mobileDescrip{
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+}
+.mobilePic .mobileImg{
+    width: 50%;
+    height: 50%;
+}
+.h1Mobile{
+    color: white;
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+
+}
+.bringing{
+    color: #ff47ff;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: right;
+}
+.toLife{
+    color: #ff47ff;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    /* margin-left: 25%; */
+    text-align: right;
+    margin-top: -5%;
+}
+.bridge{
+    text-align: right;
+    color: white;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.section .picSession{
+    width: 50%;
+    height: 50%;
+}
+.picSession .ladyImg{
+    width: 100%;
+    height: 100%;
+}
+.section .workSession{
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+}
+.workSession .learnImg{
+    width: 200px;
+    height: 130px;
+    margin: 0px 35%;
+}
+.h1session{
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+.pSession{
+    color: white;
+    text-align: center;
+    
+}
+.p2Session{
+    color: white;
+    text-align: center;
+}
+
+.Session{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.Session .pic1Session{
+    width: 50%;
+    height: 30%;
+}
+.pic1Session .ladyImg{
+    width: 100%;
+    height: 610px;
+}
+.Session .work1Session{
+    width: 50%;
+    height: 50%;
+    /* margin-top: 5%; */
+    background-color: #ff47ff;
+}
+.work1Session .learnImg{
+    width: 200px;
+    height: 130px;
+    margin: 0px 35%;
+}
+.h1Session2{
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.p2Session1{
+    text-align: center;
+}
+
+.Session .pic2Session{
+    width: 50%;
+    height: 30%;
+}
+.pic2Session .ladyImg{
+    width: 100%;
+    height: 538px;
+}
+
+
+.earn{
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.oppor{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.threechilds{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.threechilds .blok{
+    width: 25%;
+    height: 25%;
+}
+.threechilds .reblok{
+
+    width: 25%;
+    height: 25%;
+}
+.threechilds .adblok{
+
+    width: 25%;
+    height: 25%;
+}
+
+.blok .blokh1{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.reblok .reblokh1{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.adblok .adblokh1{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.blok .blokp{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.reblok .reblokp{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.adblok .adblokp{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+.blok .blokhb{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+}
+.reblok .reblokhb{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+}
+.adblok .adblokhb{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+}
+.blok .blokdetail{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.reblok .reblokdetail{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.adblok .adblokdetail{
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+}
+.container1 .token{
+    color: #ff47ff;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+}
+.container1 .tokenp{
+    color: white;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.container2{
+    /* border: 10px solid red; */
+    width: 100%;
+    height: 100%;
+    background-color: #ff47ff;
+    margin-bottom: 20%;
+}
+.container2 .tokenutility{
+    width: 500px;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.container2 .Box2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.Box2 .artboard{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+.Box2 .BLOKG{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.container2 .Box3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 4%;
+}
+.Box3 .artboard{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+.Box3 .BLOKG{
+    margin-top: 1.5%;
+    margin-left: 3%;
+}
+.container2 .Box4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 4%;
+}
+.Box4 .artboard{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+.Box4 .BLOKG{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.container2 .Box5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 10%;
+}
+.Box5 .artboard{
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+.Box5 .BLOKG{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+
+.partners{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+.partnersImg{
+    margin-left: 38%;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+}
+.partners .threeImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.threeImg .anzu{
+    width: 300px;
+    height: 100px;
+}
+.threeImg .polygon2{
+    width: 300px;
+    height: 200px;
+    margin-top: -4%;
+}
+.threeImg .zokyo{
+    width: 300px;
+    height: 80px;
+}
+
+.ivestorLead{
+    color: #ff47ff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -2%;
+    font-size: 20px;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+.investors .animaca{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 38%;
+}
+.cont{
+    width: 100%;
+    border: 2px solid #ff47ff;
+    margin-bottom: 5%;
+}
+.cont1 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;    
+}
+.cont1 .x21{
+    width: 130px;
+    height: 100px;
+    margin-left: 5%;
+
+}
+.cont2 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;    
+}
+.cont2 .x21{
+    width: 130px;
+    height: 100px;
+    margin-left: 5%;
+
+}
+.teamPic{
+    margin-bottom: 5%;
+}
+
+.teamSection{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-bottom: 10%;
+}
+.team1{
+    width: 25%;
+    height: 25%;
+    /* border: 2px solid hotpink; */
+    overflow: hidden;
+}
+.team2{
+    width: 25%;
+    height: 25%;
+    /* border: 2px solid hotpink; */
+    overflow: hidden;
+}
+.team3{
+    width: 25%;
+    height: 25%;
+    /* border: 2px solid hotpink; */
+    overflow: hidden;
+}
+.team4{
+    width: 25%;
+    height: 25%;
+    /* border: 2px solid hotpink; */
+    overflow: hidden;
+}
+.teamImg{
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+.hotpink{
+    color: #ff47ff;
+    font-weight: bold;
+    text-align: center;
+
+}
+.occupation{
+    color: white;
+    text-align: center;
+    margin-top: -4%;
+}
+.About{
+    color: white;
+    text-align: center;
+}
+.lastStage{
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.playstation{
+    width: 300px;
+    height: 60px;
+    margin-left: 10%;
+}
+.skyVegas{
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+}
+
+.lastSession{
+    width: 100%;
+    height: 300px;
+    border: 2px solid pink;
+    background-color: #ff47ff;
+}
+.linewiselogo{
+    text-align: center;
+    margin-top: 5%;
+}
+.helloG{
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.reserved{
+    color: white;
+    text-align: center;
+}
+
+.disclaim{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.lastpara{
+    color: white;
+    text-align: justify;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 10px;
+
+}
